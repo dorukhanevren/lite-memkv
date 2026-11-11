@@ -1,0 +1,15 @@
+*.exe
+*.obj
+*.o
+*.out
+lite-memkv
+*.pdb
+*.ilk
+*.suo
+*.user
+.vs/
+build/
+*.aof
+data.aof
+.DS_Store
+Thumbs.db
