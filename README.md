@@ -1,15 +1,13 @@
-\#  lite-memkv
+# lite-memkv
 
+![C++](https://img.shields.io/badge/C++-17-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
+![Architecture](https://img.shields.io/badge/Architecture-LRU%20%7C%20AOF%20Engine-purple?style=for-the-badge)
 
+A high-performance, embedded, in-memory Key-Value storage engine written in modern C++17.
 
-!\[C++](https://img.shields.io/badge/C++-17-00599C?style=for-the-badge\&logo=c%2B%2B\&logoColor=white)
-
-!\[Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
-
-!\[License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
-
-!\[Architecture](https://img.shields.io/badge/Architecture-LRU%20%7C%20AOF%20Engine-purple?style=for-the-badge)
-
+Designed for low-latency caching and systems-level memory management, **lite-memkv** couples an O(1) LRU eviction scheme with crash-resilient Append-Only File (AOF) persistence and a Redis-style interactive terminal interface.
 
 
 A high-performance, embedded, in-memory Key-Value storage engine written in modern C++17. 
